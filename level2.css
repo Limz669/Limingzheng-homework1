@@ -1,0 +1,213 @@
+/* level2的css代码 */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.head{
+    height: 50px;
+    width: 100%;
+    background-color: #333;
+}
+.head-text{
+    margin-left: 750px;
+}
+ul,li{
+    float: left;
+}
+/* li{
+    float: left;
+} */
+li a{
+    display: block;
+    color: white;
+    margin-right: 22px;
+    padding: 14px 14px 14px 12px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #111;
+}
+.photo-bird{
+    margin: 10px 0px 0px -1200px;
+}
+.contain-a{
+    width: 800px;
+    height: 1000px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 3px #888888;
+}
+h1{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+h2{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 50px;
+    font-weight: 500;
+    color: gray;
+}
+h4{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 50px;
+    font-weight: 200;
+    color: gray;
+}
+.text-a{
+    display: block;
+    position: absolute;
+    line-height: 25px;
+    width: 730px;
+    text-indent: 33px;
+    margin-top: 230px;
+    margin-left: 50px;
+}
+.loading-part{
+    border-radius: 3px;
+    position: sticky;
+    top: 0;
+    width: 380px;
+    height: 500px;
+    background-color: white;
+    float: right;
+    margin-right: -410px;
+    box-shadow: 10px 10px 3px #888888;
+}
+.loading-way{
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 10px 10px 3px #888888;
+    margin-top: 30px;
+    margin-left: 50px;
+    background-color: aqua;
+    width: 70px;
+    height: 20px;
+}
+.ways{
+    display: inline;
+    position: absolute;/* 并列 */
+    display: none;/* 鼠标不移动到登录方式则隐藏 */
+    margin-top: -20px;
+    margin-left: 75px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.choose-way{
+    display: inline;/* 两个div并列 */
+    color: black;/* 字体颜色 */
+    border-radius: 3px;
+    background-color: lightblue;
+    box-shadow:5px 5px 3px lightgray;
+    margin-right: 10px;
+    font-family: 微软雅黑,Verdana,sans-serif,宋体;
+}
+.loading-way:hover .ways{
+    display: block;
+}
+.email{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.input-text{
+    border: 2px solid #eeeeee;
+    width: 160px;
+    height: 23px;
+}
+.password{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 82px;
+}
+.sex{
+    margin-top: 30px;
+    margin-left: 130px;
+}
+.city{
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+.form{
+    margin-top: -20px;
+    margin-left: 180px;
+}
+.hobby{
+    margin-top: 10px;
+    margin-left: 130px;
+}
+.character{
+    margin-top: 10px;
+    margin-left: 97px;
+}
+.textarea{
+    margin-top: -20px;
+    margin-left: 180px;
+}
+.contain-b{
+    width: 800px;
+    height: 1000px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 3px #888888;
+}
+.contain-c{
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 3px #888888;
+}
+.grid-contain{
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 30px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(5,100px);/* 设置每行可以存放的元素个数 */ 
+    grid-column-gap: 50px;/* 行间距 */
+    grid-row-gap: 50px;/* 列间距 */
+}
+.contain-d{
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 3px #888888;
+}
+.list-ol{
+    position:absolute;
+    margin-top: 240px;
+    margin-left: 100px;
+    width: 50px;
+    height: 100px;
+}
+.list-table{
+    position:absolute;
+    margin-top: 320px;
+    margin-left: 30px;
+}
+.table{
+    line-height: 20px;
+    width: 740px;
+    height: 100px;
+}
+.footer{
+    height: 80px;
+    width: 100%;
+    background-color: #333;
+}
+.footer-text{
+    padding-top: 10px;
+}

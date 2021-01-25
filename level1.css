@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* 选择哪种登录方式 */
+.choose{
+    margin-top: 50px;
+    margin-left: 500px;
+}
+/* 登录方式模块文本编辑 */
+.choose a{
+    display: inline;
+    text-decoration: none;
+    margin-right: 20px;
+}
+a:link/* link未访问链接*//* visited已访问链接 */
+{
+    color:#4bb5e3;
+}
+a:visited
+{
+    color:gray;
+}
+a:hover,a:active{/* hover鼠标移动到链接上 *//* active鼠标点击时 */
+    color:#4bb5e3;
+}
+/* 输入框编辑（手机号/邮箱） */
+.input1{
+    border-color: #eeeeee;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 406px;
+    margin-top: 20px;
+    margin-left: 500px;
+    color: gray;
+    font-size:medium;
+    border: 2px solid #eeeeee;
+}
+/* 输入框编辑（密码） */
+.input2{
+    border-color: #eeeeee;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 406px;
+    margin-top: 40px;
+    margin-left: 500px;
+    color: gray;
+    font-size:medium;
+    border: 2px solid #eeeeee;
+}
+/* 下方勾选部分编辑 */
+.zhushi{/* 文本 */
+    font-size: 10px;
+    color: gray;
+    width: 200px;
+}
+.input3{
+    margin-top: 40px;
+    margin-left: 500px;
+}
+.pa{
+    font-size: 12px;
+    font-weight: 500;
+    color:#99a1bb;
+    margin-top: -17px;
+    margin-left: 525px;
+}
+.pb{
+    font-size: 12px;
+    font-weight: 500;
+    color:#c9c7c7;
+    margin-top: -17px;
+    margin-left: 575px;
+}
+/* 出现登录问题蓝色字部分 */
+.question{
+    margin-top: -17px;
+    margin-left: 795px;
+}
+.pc{
+    display: inline;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    color: #4bb5e3;
+}
+.pd{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    color: #4bb5e3;
+    margin-left: 10px;
+}
+/* 下方两个按钮部分编辑 */
+.button{
+    display: inline;
+}
+/* 登录按钮 */
+.button-menu-a{
+
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 500px;
+    color: white;
+    background-color: #4bb5e3;
+}
+/* 注册按钮 */
+.button-menu-b{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 180px;
+    margin-left: 50px;
+    color: gray;
+    background-color: white;
+}
+.bottom-Weibo{
+    margin-top: 10px;
+    margin-left: 500px;
+}
+.bottom-QQ{
+    margin-top: -18px;
+    margin-left: 625px;
+}
+.loading{
+    margin-left: 30px;
+    margin-top: -27px;
+    font-size: small;
+    color:gray;
+}
+.loading a{
+    text-decoration: none;
+}
