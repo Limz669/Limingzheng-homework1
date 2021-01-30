@@ -3,20 +3,24 @@
     margin: 0px;
     padding: 0px;
 }
+/* 导航栏部分编辑 */
 .head{
     height: 50px;
     width: 100%;
     background-color: #333;
 }
+/* 导航栏的文字编辑 */
 .head-text{
     margin-left: 750px;
 }
+/* 导航链接部分编辑 */
 ul,li{
     float: left;
 }
 /* li{
     float: left;
 } */
+/* 文字导航链接部分编辑 */
 li a{
     display: block;
     color: white;
@@ -24,12 +28,15 @@ li a{
     padding: 14px 14px 14px 12px;
     text-decoration: none;
 }
+/* 鼠标移动到导航链接文字处的变化 */
 li a:hover{
     background-color: #111;
 }
+/* 小鸟图标编辑 */
 .photo-bird{
     margin: 10px 0px 0px -1200px;
 }
+/* 第一个大容器编辑 */
 .contain-a{
     width: 800px;
     height: 1000px;
@@ -39,11 +46,13 @@ li a:hover{
     margin-bottom: 30px;
     box-shadow: 10px 10px 3px #888888;
 }
+/* 文字“文章一级标题” */
 h1{
     position: absolute;
     margin-top: 80px;
     margin-left: 50px;
 }
+/* 文字“文章二级标题” */
 h2{
     position: absolute;
     margin-top: 150px;
@@ -51,6 +60,7 @@ h2{
     font-weight: 500;
     color: gray;
 }
+/* 文字“文章作者 文章发表时间” */
 h4{
     position: absolute;
     margin-top: 200px;
@@ -58,6 +68,7 @@ h4{
     font-weight: 200;
     color: gray;
 }
+/* 第一个容器正文部分文字 */
 .text-a{
     display: block;
     position: absolute;
@@ -67,6 +78,7 @@ h4{
     margin-top: 230px;
     margin-left: 50px;
 }
+/* 第一个大容器旁边的小容器编辑 */
 .loading-part{
     border-radius: 3px;
     position: sticky;
@@ -78,6 +90,7 @@ h4{
     margin-right: -410px;
     box-shadow: 10px 10px 3px #888888;
 }
+/* 侧栏部分容器 */
 .loading-way{
     border-radius: 5px;
     text-align: center;
@@ -88,6 +101,7 @@ h4{
     width: 70px;
     height: 20px;
 }
+/* 文字“侧栏”和“标题”所在的父容器 */
 .ways{
     display: inline;
     position: absolute;/* 并列 */
@@ -97,6 +111,7 @@ h4{
     padding-left: 10px;
     padding-right: 10px;
 }
+/* 两个文字所处在的子容器 */
 .choose-way{
     display: inline;/* 两个div并列 */
     color: black;/* 字体颜色 */
@@ -109,46 +124,56 @@ h4{
 .loading-way:hover .ways{
     display: block;
 }
+/* 邮箱登录 */
 .email{
     position: absolute;
     margin-top: 50px;
     margin-left: 50px;
 }
+/* 邮箱输入 */
 .input-text{
     border: 2px solid #eeeeee;
     width: 160px;
     height: 23px;
 }
+/* 密码 */
 .password{
     position: absolute;
     margin-top: 30px;
     margin-left: 82px;
 }
+/* 性别 */
 .sex{
     margin-top: 30px;
     margin-left: 130px;
 }
+/* 城市 */
 .city{
     width: 200px;
     margin-top: 10px;
     margin-left: 130px;
 }
+/* 城市下拉菜单表单 */
 .form{
     margin-top: -20px;
     margin-left: 180px;
 }
+/* 爱好 */
 .hobby{
     margin-top: 10px;
     margin-left: 130px;
 }
+/* 个人描述 */
 .character{
     margin-top: 10px;
     margin-left: 97px;
 }
+/* 个人描述的文本框 */
 .textarea{
     margin-top: -20px;
     margin-left: 180px;
 }
+/* 第二个大容器编辑 */
 .contain-b{
     width: 800px;
     height: 1000px;
@@ -158,6 +183,7 @@ h4{
     margin-bottom: 30px;
     box-shadow: 10px 10px 3px #888888;
 }
+/* 第三个大容器编辑 */
 .contain-c{
     width: 800px;
     height: 500px;
@@ -167,6 +193,7 @@ h4{
     margin-bottom: 30px;
     box-shadow: 10px 10px 3px #888888;
 }
+/* 利用grid布局处理的容器 */
 .grid-contain{
     position: absolute;
     margin-top: 140px;
@@ -177,6 +204,7 @@ h4{
     grid-column-gap: 50px;/* 行间距 */
     grid-row-gap: 50px;/* 列间距 */
 }
+/* 第四个大容器编辑 */
 .contain-d{
     width: 800px;
     height: 500px;
@@ -186,6 +214,7 @@ h4{
     margin-bottom: 30px;
     box-shadow: 10px 10px 3px #888888;
 }
+/* 排名 */
 .list-ol{
     position:absolute;
     margin-top: 240px;
@@ -193,21 +222,25 @@ h4{
     width: 50px;
     height: 100px;
 }
+/* 表格容器 */
 .list-table{
     position:absolute;
     margin-top: 320px;
     margin-left: 30px;
 }
+/* 表格的属性编辑 */
 .table{
     line-height: 20px;
     width: 740px;
     height: 100px;
 }
+/* 尾部容器编辑 */
 .footer{
     height: 80px;
     width: 100%;
     background-color: #333;
 }
+/* 尾部文字 */
 .footer-text{
     padding-top: 10px;
 }
