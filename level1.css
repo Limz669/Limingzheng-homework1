@@ -59,10 +59,12 @@ a:hover,a:active{/* hover鼠标移动到链接上 *//* active鼠标点击时 */
     color: gray;
     width: 200px;
 }
+/* checkbox编辑 */
 .input3{
     margin-top: 40px;
     margin-left: 500px;
 }
+/* 文字“记住我”编辑 */
 .pa{
     font-size: 12px;
     font-weight: 500;
@@ -70,6 +72,7 @@ a:hover,a:active{/* hover鼠标移动到链接上 *//* active鼠标点击时 */
     margin-top: -17px;
     margin-left: 525px;
 }
+/* 文字“不是自己的电脑上不要勾选此选项”编辑 */
 .pb{
     font-size: 12px;
     font-weight: 500;
@@ -82,6 +85,7 @@ a:hover,a:active{/* hover鼠标移动到链接上 *//* active鼠标点击时 */
     margin-top: -17px;
     margin-left: 795px;
 }
+/* 无法验证部分编辑 */
 .pc{
     display: inline;
     text-decoration: none;
@@ -89,6 +93,7 @@ a:hover,a:active{/* hover鼠标移动到链接上 *//* active鼠标点击时 */
     font-weight: 500;
     color: #4bb5e3;
 }
+/* 忘记密码部分编辑 */
 .pd{
     text-decoration: none;
     font-size: 12px;
@@ -102,7 +107,6 @@ a:hover,a:active{/* hover鼠标移动到链接上 *//* active鼠标点击时 */
 }
 /* 登录按钮 */
 .button-menu-a{
-
     border: 1px solid gray;
     border-radius: 5px;
     padding-left: 5px;
@@ -126,20 +130,24 @@ a:hover,a:active{/* hover鼠标移动到链接上 *//* active鼠标点击时 */
     color: gray;
     background-color: white;
 }
+/* 利用微博账号登录模块 */
 .bottom-Weibo{
     margin-top: 10px;
     margin-left: 500px;
 }
+/* 利用QQ登录模块 */
 .bottom-QQ{
     margin-top: -18px;
     margin-left: 625px;
 }
+/* 选择微博/QQ登陆部分文字编辑 */
 .loading{
     margin-left: 30px;
     margin-top: -27px;
     font-size: small;
     color:gray;
 }
+/* 超链接部分文字不加修饰 */
 .loading a{
     text-decoration: none;
 }
